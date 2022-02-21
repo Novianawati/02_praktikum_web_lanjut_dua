@@ -14,7 +14,7 @@ class PageController extends Controller
         return "2041720173 Novianawati";
     }
 
-    public function articles(){
+    public function articles($id){
         return "Halaman Artikel dengan Id $id";
     }
 }
